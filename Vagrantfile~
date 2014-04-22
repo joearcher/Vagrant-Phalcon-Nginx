@@ -24,7 +24,7 @@ Vagrant::Config.run do |config|
   # an identifier, the second is the path on the guest to mount the
   # folder, and the third is the path on the host to the actual folder.
   # For this example, this folder should contain an index.php file.
-  config.vm.share_folder "webroot", "/opt/my_project", "./"
+  config.vm.share_folder "webroot", "/opt/my_project", "../"
 
   # Enable provisioning with Puppet stand alone.
 
