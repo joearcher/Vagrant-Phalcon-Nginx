@@ -5,7 +5,7 @@ Vagrant-Nginx-Phalcon
 
 ##Installed
 
-Ubuntu Precise32 base box
+Ubuntu Trusty32 base box
 
 nginx
 
