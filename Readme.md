@@ -15,6 +15,8 @@ php5-fpm
 
 SQLite3
 
+##Note
+This compiles Phalcon from source, it may take a while. To avoid this every time, just halt the machine rather than destroying it.
 
 ##Use
 `http://localhost:8080` with a web root of `public` relative to the Vagrantfile.
