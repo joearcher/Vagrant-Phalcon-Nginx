@@ -1,11 +1,11 @@
 Vagrant::Config.run do |config|
 
   # The base box we are building off
-  config.vm.box = "precise32"
+  config.vm.box = "ubuntu/trusty32"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.box_url = "https://atlas.hashicorp.com/ubuntu/boxes/trusty32"
 
   # Boot with a GUI so you can see the screen. Good for debugging startup issues. (Default is headless)
   # config.vm.boot_mode = :gui
