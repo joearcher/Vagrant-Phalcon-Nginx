@@ -1,4 +1,4 @@
-Vagrant-Nginx-Phalcon
+Vagrant-Phalcon-Nginx
 =====================
 
 ##Vagrant/Puppet to build a phalcon-php/ngnix development server.
